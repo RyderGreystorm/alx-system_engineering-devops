@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#rename files
+
+for i in *
+do
+	echo "${i#*-}"
+done
