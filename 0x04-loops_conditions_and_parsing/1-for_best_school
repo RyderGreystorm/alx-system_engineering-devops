@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Script creating a loop that calls a value n number of times
+
+for _ in $(seq 1 10)
+do
+	echo "Best School"
+done
