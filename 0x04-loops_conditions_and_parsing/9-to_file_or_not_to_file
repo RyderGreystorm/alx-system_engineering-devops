@@ -14,7 +14,7 @@ then
 	fi
 	if [ -f "$doc" ]
 	then
-		echo "$doc file is a regular file"
+		echo "$doc is a regular file"
 	fi
 else
 	echo "$doc file does not exist"
