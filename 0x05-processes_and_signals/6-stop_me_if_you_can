@@ -6,6 +6,5 @@ if [ -z "$pid" ]
 then
 	echo "No such process found"
 else
-	pkill -15 > "/proc/$pid/status"
-	sleep 1
+	pkill -TERM -f '4-to_infinity_and_beyond'
 fi
