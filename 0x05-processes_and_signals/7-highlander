@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#sleep but make a call before termination
+
+sigterm() {
+	echo "I am invincible!!!"
+	exit 0
+}
+
+trap sigterm SIGTERM
+
+while true; do
+	echo "To infinity and beyond"
+	sleep 2
+done
