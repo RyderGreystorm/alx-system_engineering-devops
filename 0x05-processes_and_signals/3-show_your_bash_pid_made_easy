@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #show your pid made easy
 
 for pid in /proc/*/; do
